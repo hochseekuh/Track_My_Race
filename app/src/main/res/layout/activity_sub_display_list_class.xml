@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sub_register_class"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip"
+    android:shrinkColumns="1"
+    android:stretchColumns="*"
+    android:visibility="visible"
+    tools:context="com.sapstern.track_my_race.ActivityManageClass">
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boatClass" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/boatClass"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yardStick" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/yardStick"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+
+        <Button
+
+            android:id="@+id/addClassButton"
+            android:text="@string/add"
+            android:layout_gravity="center_horizontal|fill_horizontal"
+
+
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:gravity="left|center_vertical|center_horizontal" />
+        <Button
+
+            android:id="@+id/nextAddClassButton"
+            android:text="@string/next"
+            android:layout_gravity="center_horizontal|fill_horizontal"
+
+
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:gravity="left|center_vertical|center_horizontal" />
+
+    </TableRow>
+</TableLayout>

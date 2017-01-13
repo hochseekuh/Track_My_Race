@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register_race"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip"
+    android:shrinkColumns="1"
+    android:stretchColumns="*"
+    android:visibility="visible"
+    tools:context="com.sapstern.track_my_race.ActivityRegisterRace">
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/race_name" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/race_name"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/club" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/club"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/race_officer" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/race_officer"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_from" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/date_from"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_to" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/date_to"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/point_system" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/point_system"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left" >
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+
+        <Button
+
+            android:id="@+id/saveMasterDataButton"
+            android:text="@string/save"
+            android:layout_gravity="center_horizontal|fill_horizontal"
+
+
+            android:textAllCaps="false"
+            android:visibility="visible"
+            android:gravity="left|center_vertical|center_horizontal" />
+
+    </TableRow>
+</TableLayout>

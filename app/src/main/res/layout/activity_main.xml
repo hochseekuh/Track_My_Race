@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:layout_marginRight="5dip"
+    android:paddingLeft="3dip"
+    android:paddingRight="3dip"
+    android:shrinkColumns="1"
+    android:stretchColumns="*"
+    android:visibility="visible"
+    tools:context="com.sapstern.track_my_race.ActivityMain">
+    <TableRow>
+
+        <com.sapstern.track_my_race.utils.RunningTextView
+            android:text="Select one of the following activities"
+            android:layout_height="@dimen/textview_height"
+            android:layout_width="@dimen/textview_width"
+            android:layout_marginTop="50px"
+            android:textSize="@dimen/font_size"
+            android:id="@+id/textViewMainHeading" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:text="Register race"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50px"
+            android:id="@+id/radioButtonRegisterBoatRace" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:text="Register class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButtonManageClass" />
+
+
+    </TableRow>
+
+    <TableRow>
+
+        <RadioButton
+            android:text="Register participants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:id="@+id/radioButtonRegisterParticipants" />
+
+
+    </TableRow>
+
+</TableLayout>

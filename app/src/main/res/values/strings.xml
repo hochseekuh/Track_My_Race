@@ -1,0 +1,18 @@
+<resources>
+    <string name="error_insert_class">Error inserting boat class. Already maintained?</string>
+    <string name="success_insert_class">Successfull inserted class</string>
+    <string name="race_name">Name of event</string>
+    <string name="club">Sailing club</string>
+    <string name="race_officer">Race officer</string>
+    <string name="date_from">Date from</string>
+    <string name="date_to">Date to</string>
+    <string name="point_system">Point System</string>
+    <string name="save">Save</string>
+    <string name="app_name">Sailingrace Tracker</string>
+    <string name="boatClass">Boatclass</string>
+    <string name="yardStick">Yardstick</string>
+    <string name="add">Add Class</string>
+    <string name="next">Next</string>
+    <string name="title_activity_register_race">Register Event</string>
+    <string name="title_activity_manage_participant">ActivityManageParticipant</string>
+</resources>

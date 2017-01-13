@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sapstern.track_my_race">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sailing"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityManageClass" />
+        <activity
+            android:name=".ActivityRegisterRace"
+            android:label="@string/title_activity_register_race" />
+        <activity
+            android:name=".ActivityManageParticipant"
+            android:label="@string/title_activity_manage_participant"></activity>
+    </application>
+
+</manifest>
